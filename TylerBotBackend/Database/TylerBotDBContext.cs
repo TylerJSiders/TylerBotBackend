@@ -6,7 +6,6 @@ namespace TylerBotBackend.Database
     {
         public TylerBotDBContext(DbContextOptions<TylerBotDBContext> contextOptions) : base(contextOptions)
         {
-
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
